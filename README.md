@@ -1,4 +1,4 @@
-![image](https://github.com/joowop/7_project_today/assets/80230688/31647df0-e269-4427-99b9-6ea8e83aa909)# 📖 프로젝트명
+# 📖 프로젝트명
 
 ### ✔️ NLP를 활용한 오늘 하루 요약 프로젝트 (메티버스 아카데미 2기 AI반 7월 프로젝트)
 
@@ -76,7 +76,30 @@
 
      - 노래 가사 감정 추론 <br>
        ![image](https://github.com/joowop/7_project_today/assets/80230688/d8750b99-d951-4b43-a1db-fa8af91ab1b1)<br>
+       
+2. 텍스트 요약 
+   - 채팅 내용 요약
+     - 채팅 예시<br>
+       ![image](https://github.com/joowop/7_project_today/assets/80230688/95a2e124-8bdd-4449-8850-4efac602ff45)<br>
 
+     - Bart 모델<br>
+       ![image](https://github.com/joowop/7_project_today/assets/80230688/6eb589e7-1bbe-406b-bd5d-6c447026f41f)<br>
+
+     - GPT-3.5-Turbo<br>
+       ![image](https://github.com/joowop/7_project_today/assets/80230688/b134a214-39a9-46fe-90b2-c3a0ae6d1ac7)<br>
+
+    
+3. 추천 시스템
+   - 노래 추천 시스템<br>
+       ![image](https://github.com/joowop/7_project_today/assets/80230688/63267e36-17ca-4474-aabc-8e6060371f9e)<br>
+     
+       ![image](https://github.com/joowop/7_project_today/assets/80230688/673202e6-fad7-4853-a4c8-c3294e70b05f)<br>
+
+       ![image](https://github.com/joowop/7_project_today/assets/80230688/d144ee08-0048-4c21-bce4-450b5947c128)<br>
+
+       ![image](https://github.com/joowop/7_project_today/assets/80230688/bbf05caa-a313-4bf5-8e00-42e30c207630)<br>
+
+       
 ### ✔️ 결과
 ![image](https://github.com/joowop/7_project_today/assets/80230688/5f627b48-f3e6-4ba6-9269-53d56909daa9)<br>
 
