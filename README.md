@@ -1,4 +1,4 @@
-# 📖 프로젝트명
+![image](https://github.com/joowop/7_project_today/assets/80230688/31647df0-e269-4427-99b9-6ea8e83aa909)# 📖 프로젝트명
 
 ### ✔️ NLP를 활용한 오늘 하루 요약 프로젝트 (메티버스 아카데미 2기 AI반 7월 프로젝트)
 
@@ -46,21 +46,20 @@
    
 ### ✔️ 데이터 수집 방법
 
-1. 장서 점검<br>
-   (1) 직접 찍은 책장 사진 데이터<br>
-   (2) 책(BOOK), 뒤집어진 책(BOOK_REVERSED), 책 라벨, (BOOK_LABEL), 뒤집어진 책 라벨, (BOOK_REVERSED_LABLE)<br>
-   <br>
-2. 추천시스템 패스파인더 <br>
-   (1) 교보문고 및 도서관 도서 데이터 Crawling <br>
-   <br>
+- Melon 음원 사이트 노래 제목, 가수, 가사 데이터 Crawling
+- AI hub : 감성 대화 말뭉치 데이터, 감성 및 발화 스타일별 음성합성 데이터 활용
    
 ### ✔️ 주요 기능
 
-1. 서비스 기능(장서 점검)
-   (1) roboflow<br>
-       - 직접 찍은 책장 사진 데이터 라벨링<br>
-       - book, book_label, book_reversed, book_reversed_lable<br>
-         - 약 3000개의 데이터셋 확보<br>
+1. 분석과정 (감정분석)
+   - Bert 모델 커스텀 학습
+     - 감정 type : ['기쁨','슬픔','분노','불안','상처','당황','중립']
+     - 사용 Data <br>
+       ![image](https://github.com/joowop/7_project_today/assets/80230688/28f20811-6bcd-441f-be23-cd5781fdc65d)<br>
+
+     - 학습 결과<br>
+       ![image](https://github.com/joowop/7_project_today/assets/80230688/d516fe3c-17cb-4669-960c-ef68f9b32554)<br>
+
    <br>
    (2) YOLOv8-s 모델<br>
        - mAP50 : 0.987<br>
@@ -77,7 +76,7 @@
        - ocr된 라벨을 통해 뒤집어진 도서, 순서가 바뀐 도서, 분실된 도서를 탐지 하고 사서에게 알려주는 알고리즘 구현<br>
    <br>
    
-2. 서비스 기능 (추천 시스템 패스파인더)
+3. 서비스 기능 (추천 시스템 패스파인더)
    (1) 데이터셋<br>
        - 데이터 수 : 교보문고 크롤링 데이터셋 약 10000건 (정치/사회,역사/문화,가정/육아,기술/공학, 종교, 요리 등)<br>
        - 수집 내용 : 책 제목, 키워드, 저자, 출판사, 리뷰 수, 리뷰 내용<br>
