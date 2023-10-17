@@ -59,45 +59,23 @@
 
      - 학습 결과<br>
        ![image](https://github.com/joowop/7_project_today/assets/80230688/d516fe3c-17cb-4669-960c-ef68f9b32554)<br>
+       
+   - 채팅 감정 분석
+     - 예시(전남친과의 대화 카톡방)<br>
+       ![image](https://github.com/joowop/7_project_today/assets/80230688/6d00ac96-b775-4089-b892-e22facc70205)<br>
+       
+     - 결과<br>
+       ![image](https://github.com/joowop/7_project_today/assets/80230688/59831956-a10d-4669-93ce-264dadd89af0)<br>
+       
+   - 노래 가사 감정 분석
+     - 노래 가사 감정 정보 <br>
+       ![image](https://github.com/joowop/7_project_today/assets/80230688/0cc7bb11-fcbf-4cd3-94bd-7ba71f33e9e2)<br>
+       
+     - 노래 가사 Data <br>
+       ![image](https://github.com/joowop/7_project_today/assets/80230688/c95559c2-ef5e-4977-8d0c-f59854fb332d)<br>
 
-   <br>
-   (2) YOLOv8-s 모델<br>
-       - mAP50 : 0.987<br>
-       ![results](https://github.com/joowop/octaforaugust/assets/80230688/85abebf4-ead8-4a3d-ba55-e6d2cdf9e0fe)<br>
-       ![image](https://github.com/joowop/octaforaugust/assets/80230688/5ae83b47-515c-405e-bd96-2874ae7e7381)<br>
-       - 높은 정확도 도출 및 class별 객체 탐지가 우수<br>
-   
-   (3) easy ocr <br>
-       - yolo를 통해 탐지된 책 라벨 Crop하여 저장<br>
-       - Crop된 라벨 이미지 ocr<br>
-       ![스크린샷 2023-10-17 101115](https://github.com/joowop/octaforaugust/assets/80230688/601ef66b-4428-4f54-ab68-16ecf5323528)<br>
-   <br>
-   (3) 장서 점검 모델<br>
-       - ocr된 라벨을 통해 뒤집어진 도서, 순서가 바뀐 도서, 분실된 도서를 탐지 하고 사서에게 알려주는 알고리즘 구현<br>
-   <br>
-   
-3. 서비스 기능 (추천 시스템 패스파인더)
-   (1) 데이터셋<br>
-       - 데이터 수 : 교보문고 크롤링 데이터셋 약 10000건 (정치/사회,역사/문화,가정/육아,기술/공학, 종교, 요리 등)<br>
-       - 수집 내용 : 책 제목, 키워드, 저자, 출판사, 리뷰 수, 리뷰 내용<br>
-   <br>
-   (2) 유사도 기반 추천 시스템<br>
-       - 트랜스포머를 이용하여 키워드 문장의 임베딩을 얻고, 입력값과 코사인유사도 값이 가장 높은 키워드를 얻어냄<br>
-       - 해당 키워드와 짝이 되는 내용을 도출<br>
-       ![image](https://github.com/joowop/octaforaugust/assets/80230688/f6f09b51-e209-40b0-a0a8-704e4d7e9500)<br>
-   <br>
-4. 서비스 기능 (도서관 Q/A 챗)
-   (1) 데이터셋<br>
-       1.1 초창기 모델<br>
-           - 데이터 수 : 대학도서관, 공공도서관 질의 응답 데이터 셋 약 4500 건<br>
-           - KoGPT-2 모델을 이용한 생성 모델에 전체 4500건 데이터 학습<br>
-           - + 정제된 데이터 셋 150건 학습<br>
-           ![image](https://github.com/joowop/octaforaugust/assets/80230688/3f585522-3dc5-466e-bb6d-81fb1bfd917c)<br>
-       <br>
-       1.2 개선 모델<br>
-           - 데이터 수 : 대학도서관, 공공도서관 자주 묻는 질문 데이터셋 약 150 건<br>
-           ![image](https://github.com/joowop/octaforaugust/assets/80230688/9b36a30c-ecd5-4fc6-9cca-7732f10949e8)<br>
-   <br>
+     - 노래 가사 감정 추론 <br>
+       ![image](https://github.com/joowop/7_project_today/assets/80230688/d8750b99-d951-4b43-a1db-fa8af91ab1b1)<br>
 
 ### ✔️ 결과
 ![image](https://github.com/joowop/7_project_today/assets/80230688/5f627b48-f3e6-4ba6-9269-53d56909daa9)<br>
