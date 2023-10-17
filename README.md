@@ -27,21 +27,13 @@
 
 ### ✔️ 수행 기간
 
-2023.08.01 ~ 2023.08.31
+2023.07.03 ~ 2023.07.31
 
-### ✔️ 세부 진행 기록
-
-- 23-08-01 : 회의 및 주제 정하기
-- 23-08-11 : Roboflow를 이용한 라벨링 작업
-- 23-08-18 : yolov8을 활용한 도서 및 도서 청구기호 객체 탐지, Easy OCR Fine tuning 및 OCR을 활용한 도서 청구 기호 인식
-- 23-08-25 : FLASk를 활용한 모델 서빙 및 WEB 구현, 인사이트 도출 , PPT 수정, 발표 대본 작성 
-- 23-08-31 : PT 발표 및 질의응답
-- 
 # 💡 주요 내용
 
 ### ✔️ 개요
 
-1. 장서 점검
+1. 분류 모델델
    - 분실된 도서, 뒤집어진 도서, 위치 변경이 필요한 도서 Detection
    - Detection된 도서의 정확한 위치 파악
      <br>
@@ -106,22 +98,13 @@
    <br>
 
 ### ✔️ 결과
+![image](https://github.com/joowop/7_project_today/assets/80230688/5f627b48-f3e6-4ba6-9269-53d56909daa9)<br>
 
-1. 사서
-   - 자동화와 효율성 향상
-      - 시스템을 통해 자동으로 책 라벨을 검출하고 문자를 인식하므로, 사서들은 수동으로 라벨을 확인하거나 책을 수기로 체크하는 번거로움이 줄어들어 업무 효율성이 향상이 됨
-    - 관리 용이성
-      - 뒤집어진 책, 분실된 책, 위치가 바뀐 책을 실시간으로 감지하고 추적하므로, 사서들은 도서의 상태 변화를 신속하게 파악하고 조치를 취할 수 있음
-    - 업무 스트레스 감소
-      - 필요한 노동력과 노동 시간 절감이 가능하며, 비대면 업무 효율성 또한 증가
-2. 이용
-   - 쾌적한 이용 환경
-      - 시스템을 통해 도서 위치 변동이나 분실을 최소화하여 도서관 내의 책을 빠르게 찾을 수 있음
-    - 개인화된 추천
-      - 패스파인더 기능을 통해 관심 분야나 선호하는 작가에 기반한 개인화된 도서 추천을 받을 수 있어, 다양한 도서를 발견하고 읽을 수 있음
-    - 시간 절약
-      - 도서 위치 파악에 소요되는 시간을 줄여줌으로써, 이용자들은 빠르게 필요한 책을 찾을 수 있음
-
+1. 기대효과
+- 소중한 추억을 보관하고 기록할수 있습니다.
+- 빠르고 쉽게 하루를 마무리 할 수 있습니다.
+- 대화 속 키워드로 유용한 맞춤 광고를 받을 수 있습니다.
+- 소중한 순간을 공유하고 감동을 선물할 수 있습니다.
 
 # 🛠 기술 스택
 
@@ -129,8 +112,8 @@
 <img src="https://img.shields.io/badge/python-3776AB?style=for-the-badge&logo=python&logoColor=white">
 
 ### ▪ 주요 라이브러리
-<img src="https://img.shields.io/badge/Yolov8-F7931E?style=for-the-badge&logo=Yolov8&logoColor=white"> <img src="https://img.shields.io/badge/Easy OCR-150458?style=for-the-badge&logo=Easy OCR&logoColor=white">
-<img src="https://img.shields.io/badge/Tensorflow-013243?style=for-the-badge&logo=Tensorflow&logoColor=white"> <img src="https://img.shields.io/badge/Flask-99CC00?style=for-the-badge&logo=Flask&logoColor=white"> <img src="https://img.shields.io/badge/Pytorch-0058CC?style=for-the-badge&logo=Pytorch&logoColor=white">
+<img src="https://img.shields.io/badge/BERT-F7931E?style=for-the-badge&logo=BERT&logoColor=white"> <img src="https://img.shields.io/badge/GPT-150458?style=for-the-badge&logo=GPT&logoColor=white">
+<img src="https://img.shields.io/badge/Song2vec-013243?style=for-the-badge&logo=Song2vec&logoColor=white"> <img src="https://img.shields.io/badge/Bart-99CC00?style=for-the-badge&logo=Bart&logoColor=white">
 
 ### ▪ 개발 툴
 <img src="https://img.shields.io/badge/VS code-2F80ED?style=for-the-badge&logo=VS code&logoColor=white"> <img src="https://img.shields.io/badge/Google Colab-F9AB00?style=for-the-badge&logo=Google Colab&logoColor=white">
